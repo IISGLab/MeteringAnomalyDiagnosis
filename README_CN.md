@@ -22,20 +22,47 @@ Metering Anomaly Diagnosis (MAD)是一个智能电网变电站智能电表运行
 ---
 ## 样本介绍
 所有数据均采集自三相四线制智能电能表，每个样本均包含14个变量，分别为3相电压、3相电流、总有功功率和3相有功功率，以及总功率因数和3相功率因数。每个变量均已完成归一化处理，正常和6种异常的案例样本如下所示：
+<p align="center">
+<img src="./imgs/normal.png" height = "500" alt="" align=center />
+<br><br>
+<b>图 1.</b> 正常样本
+</p>
 
-图1 正常样本
+<p align="center">
+<img src="./imgs/abnormal-1.png" height = "500" alt="" align=center />
+<br><br>
+<b>图 2.</b>  异常类型1
+</p>
 
-图2 异常类型1
+<p align="center">
+<img src="./imgs/abnormal-2.png" height = "500" alt="" align=center />
+<br><br>
+<b>图 3.</b>  异常类型2
+</p>
 
-图3 异常类型2
+<p align="center">
+<img src="./imgs/abnormal-3.png" height = "500" alt="" align=center />
+<br><br>
+<b>图 4.</b>  异常类型3
+</p>
 
-图4 异常类型3
+<p align="center">
+<img src="./imgs/abnormal-4.png" height = "500" alt="" align=center />
+<br><br>
+<b>图 5.</b>  异常类型4
+</p>
 
-图5 异常类型4
+<p align="center">
+<img src="./imgs/abnormal-5.png" height = "500" alt="" align=center />
+<br><br>
+<b>图 6.</b>  异常类型5
+</p>
 
-图6 异常类型5
-
-图7 异常类型6
+<p align="center">
+<img src="./imgs/abnormal-6.png" height = "500" alt="" align=center />
+<br><br>
+<b>图 7.</b>  异常类型6
+</p>
 
 ---
 如果您使用该数据集，请引用该工作：
