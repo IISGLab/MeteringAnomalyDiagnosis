@@ -23,7 +23,47 @@ The samples of the dataset contain 7 categories, 0 is normal, and 1 to 6 are abn
 ## Introduction of sample
 All data were collected from three-phase four-wire smart electricity meters, and each sample contained 14 variables, which were 3-phase voltage, 3-phase current, total active power and 3-phase active power, and total power factor and 3-phase power factor. Each variable has been normalized, and the samples of normal and six abnormal cases are as follows:
 
+<p align="center">
+<img src="./imgs/normal.png" height = "500" alt="" align=center />
+<br><br>
+<b>Figure 1.</b> Normal Smaple
+</p>
 
+<p align="center">
+<img src="./imgs/abnormal-1.png" height = "500" alt="" align=center />
+<br><br>
+<b>Figure 2.</b>  Abnormal-1
+</p>
+
+<p align="center">
+<img src="./imgs/abnormal-2.png" height = "500" alt="" align=center />
+<br><br>
+<b>Figure 3.</b>  Abnormal-2
+</p>
+
+<p align="center">
+<img src="./imgs/abnormal-3.png" height = "500" alt="" align=center />
+<br><br>
+<b>Figure 4.</b>  Abnormal-3
+</p>
+
+<p align="center">
+<img src="./imgs/abnormal-4.png" height = "500" alt="" align=center />
+<br><br>
+<b>Figure 5.</b>  Abnormal-4
+</p>
+
+<p align="center">
+<img src="./imgs/abnormal-5.png" height = "500" alt="" align=center />
+<br><br>
+<b>Figure 6.</b>  Abnormal-5
+</p>
+
+<p align="center">
+<img src="./imgs/abnormal-6.png" height = "500" alt="" align=center />
+<br><br>
+<b>Figure 7.</b>  Abnormal-6
+</p>
 
 ---
 If you use this dataset please cite the work:
