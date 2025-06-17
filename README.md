@@ -6,19 +6,19 @@ The data is entirely sourced from actual deployed Advanced Metering Infrastructu
 
 The sampling interval is 30 minutes. As samples are divided by daily cycles, each sample contains 48 data points.
 
-Preprocessing of the dataset has been completed, yielding a total of 7,421 usable samples stored in the MAD.npz file. The training and test sets have already been partitioned, consisting of 2,319 and 5,414 samples respectively, accessible via (x_train, y_train, x_test, y_test) for extraction.
+Preprocessing of the dataset has been completed, yielding a total of 7,733 usable samples stored in the MAD.npz file. The training and test sets have already been partitioned, consisting of 2,319 and 5,414 samples respectively, accessible via (x_train, y_train, x_test, y_test) for extraction.
 
 Samples in the dataset fall into 7 categories, where 0 indicates normal operation and categories 1–6 represent six distinct anomaly types. The specific sample distribution is listed in the following table:
 
 | Category ID | Description | number of samples |
 | ---- | ---- | ---- |
-| 0 | normal | 6212 |
-| 1 | Abnormal-1 | 196 |
-| 2 | Abnormal-2 | 85 |
-| 3 | Abnormal-3 | 88 |
-| 4 | Abnormal-4 | 525 |
-| 5 | Abnormal-5 | 81 |
-| 6 | Abnormal-6 | 234 |
+| 0 | normal | 6021 |
+| 1 | Abnormal-1 | 265 |
+| 2 | Abnormal-2 | 124 |
+| 3 | Abnormal-3 | 128 |
+| 4 | Abnormal-4 | 747 |
+| 5 | Abnormal-5 | 120 |
+| 6 | Abnormal-6 | 328 |
 
 ---
 ## Introduction of sample
