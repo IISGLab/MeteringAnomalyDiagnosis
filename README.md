@@ -21,6 +21,18 @@ Samples in the dataset fall into 7 categories, where 0 indicates normal operatio
 | 6 | Abnormal-6 | 328 |
 
 ---
+If you use this dataset please cite the work:
+
+```
+@misc{MAD,
+  author       = {Wang, F.},
+  title        = {{Metering Anomaly Diagnosis}},
+  year         = {2025},
+  note         = {https://github.com/IISGLab/MeteringAnomalyDiagnosis} 
+}
+```
+
+---
 ## Introduction of sample
 All data were collected from three-phase four-wire smart meters, and each sample contained 14 variables, which were 3-phase voltage, 3-phase current, total active power and 3-phase active power, and total power factor and 3-phase power factor. Each variable has been normalized, and the samples of normal and six abnormal cases are as follows:
 
@@ -66,14 +78,4 @@ All data were collected from three-phase four-wire smart meters, and each sample
 <b>Figure 7.</b>  Abnormal-6
 </p>
 
----
-If you use this dataset please cite the work:
 
-```
-@misc{MAD,
-  author       = {Wang, F.},
-  title        = {{Metering Anomaly Diagnosis}},
-  year         = {2025},
-  note         = {https://github.com/IISGLab/MeteringAnomalyDiagnosis} 
-}
-```
